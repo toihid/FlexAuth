@@ -1,7 +1,0 @@
-{
-  "buildCommand": "pnpm build --filter @flexauth/demo",
-  "outputDirectory": "apps/demo/.next",
-  "installCommand": "pnpm install",
-  "framework": "nextjs",
-  "rootDirectory": "apps/demo"
-}
