@@ -1,5 +1,6 @@
 {
   "version": 2,
+  "installCommand": "cd ../.. && pnpm install && pnpm run build --filter @flexauth/shared-types",
   "builds": [
     {
       "src": "src/vercel.ts",
