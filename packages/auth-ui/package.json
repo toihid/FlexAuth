@@ -1,6 +1,6 @@
 {
-  "name": "@flexauth/auth-ui",
-  "version": "1.0.0",
+  "name": "flexauth-ui",
+  "version": "1.0.1",
   "description": "Reusable React + Material UI authentication components",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
@@ -13,7 +13,8 @@
     }
   },
   "files": [
-    "dist"
+    "dist",
+    "README.md"
   ],
   "scripts": {
     "build": "tsup src/index.ts --format cjs,esm --dts --external react --external react-dom --external @mui/material --external @emotion/react --external @emotion/styled",
@@ -57,6 +58,6 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/your-org/auth-ecosystem"
+    "url": "https://github.com/toihid/FlexAuth"
   }
 }
